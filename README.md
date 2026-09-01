@@ -78,13 +78,13 @@ successful corrected-copy operation returns 0.
 
 ## Windows quick start
 
-On Windows, you can also double-click `run_demo.bat` to run the included example.
-The batch file is only a convenience launcher; the Python commands above remain the normal CLI.
+On Windows, double-click `run_demo.bat` to run the complete example.
+The launcher audits the original file, creates a corrected copy, and verifies the corrected result.
 
 ## Tests
 
 ~~~powershell
-python -m unittest discover -s tests -v
+python -m unittest discover -s tests -p "test_demo.py" -v
 ~~~
 
 The test file covers each bit position, combined masks, invalid input, comments,
@@ -128,4 +128,6 @@ real control system.
 Siemens, SIMATIC, and TIA Portal are trademarks of their respective owners. This
 independent project is not affiliated with or endorsed by Siemens.
 
-No public license has been granted yet. See LICENSE_PENDING.md.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
