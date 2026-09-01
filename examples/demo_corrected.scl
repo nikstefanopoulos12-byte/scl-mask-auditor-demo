@@ -1,0 +1,10 @@
+// Fictional source used only by the public demonstration.
+"ProtectionDemo"(
+    Target := "MACHINE_101_DB".MACHINE_101.protection,
+    SafetyCondition01 := DemoSignals.GuardClosed,
+    SafetyCondition02 := FALSE,
+    SafetyCondition03 := DemoSignals.EStopHealthy,
+    SafetyCondition04 := FALSE
+);
+
+"MACHINE_101_DB".MACHINE_101.protection.safetyMask := 16#FFFA;
