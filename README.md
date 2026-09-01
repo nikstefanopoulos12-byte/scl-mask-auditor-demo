@@ -119,7 +119,7 @@ This demo focuses on one small SCL pattern:
 More complex parsing, additional rules, batch processing, and reporting are outside
 this demo.
 
-## Safety and license
+## Safety Notice
 
 This is an engineering example, not a certified verification or functional-safety
 product. Results must be reviewed by a qualified controls engineer before use in a
