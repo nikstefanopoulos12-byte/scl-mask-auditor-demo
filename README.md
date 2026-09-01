@@ -128,6 +128,11 @@ real control system.
 Siemens, SIMATIC, and TIA Portal are trademarks of their respective owners. This
 independent project is not affiliated with or endorsed by Siemens.
 
+## Author
+
+**Nikolaos Stefanopoulos**  
+Email: nikstefanopoulos12@gmail.com
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
